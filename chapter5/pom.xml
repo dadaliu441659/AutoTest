@@ -25,7 +25,7 @@
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>
-                            ./src/main/resources/suite.xml
+                            ./src/main/resources/*.xml
                         </suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>

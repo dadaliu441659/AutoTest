@@ -40,8 +40,7 @@
                 <version>2.7.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <!--suppress UnresolvedMavenProperty -->
-                        <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+                        <suiteXmlFile>./src/main/resources/extentreport.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
