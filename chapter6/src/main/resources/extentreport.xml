@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="extentreporttest">
+    <test name="extentreport">
+        <classes>
+            <class name="com.extent.testExtentReport" />
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.extent.extentTestNGIReporterListenerOld"/>
+    </listeners>
+</suite>
