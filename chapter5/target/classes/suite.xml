@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="suite">
+    <test name="basictest">
+        <classes>
+            <class name="com.course.testng.BasicAnnotationTest" />
+            <methods>
+                <include name="annotationTest1"/>
+            </methods>
+        </classes>
+    </test>
+    <test name="login">
+        <classes>
+            <class name="com.course.testng.suite.LoginTest"/>
+            <class name="com.course.testng.suite.suiteConfig"/>
+        </classes>
+    </test>
+    <test name="pay">
+        <classes>
+            <class name="com.course.testng.suite.payTest"/>
+            <class name="com.course.testng.suite.suiteConfig"/>
+        </classes>
+    </test>
+</suite>
