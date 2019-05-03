@@ -4,7 +4,23 @@
     <list default="true" id="ae076b0c-45ad-4369-82cc-6d119260b75c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter5/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/target/surefire-reports/junitreports/TEST-com.course.testng.BasicAnnotationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/target/surefire-reports/junitreports/TEST-com.course.testng.BasicAnnotationTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/target/surefire-reports/junitreports/TEST-com.course.testng.suite.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/target/surefire-reports/junitreports/TEST-com.course.testng.suite.LoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/target/surefire-reports/junitreports/TEST-com.course.testng.suite.payTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/target/surefire-reports/junitreports/TEST-com.course.testng.suite.payTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/target/surefire-reports/old/suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/target/surefire-reports/old/suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/target/surefire-reports/old/suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/target/surefire-reports/old/suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/target/surefire-reports/suite/basictest.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/target/surefire-reports/suite/basictest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/target/surefire-reports/suite/basictest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/target/surefire-reports/suite/basictest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/target/surefire-reports/suite/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/target/surefire-reports/suite/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/target/surefire-reports/suite/login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/target/surefire-reports/suite/login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/target/surefire-reports/suite/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/target/surefire-reports/suite/pay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/target/surefire-reports/suite/pay.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/target/surefire-reports/suite/pay.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter6/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/test-output/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/chapter/target/" />
     <ignored path="$PROJECT_DIR$/chapter5/target/" />
@@ -20,20 +36,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter6/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+            <state relative-caret-position="171">
+              <caret line="42" column="75" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter5/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+            <state relative-caret-position="157">
+              <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -189,7 +205,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="9" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
@@ -424,7 +440,7 @@
       <workItem from="1556721054542" duration="7180000" />
       <workItem from="1556866652197" duration="8562000" />
       <workItem from="1556876183125" duration="3468000" />
-      <workItem from="1556884626835" duration="4774000" />
+      <workItem from="1556884626835" duration="5269000" />
     </task>
     <servers />
   </component>
@@ -461,13 +477,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26416000" />
+    <option name="totallyTimeSpent" value="26911000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="9" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="9" width="1382" height="744" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -476,7 +491,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23567921" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44680852" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.48281506" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -484,7 +499,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5171849" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.5155483" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -695,17 +710,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter5/pom.xml">
+    <entry file="file://$PROJECT_DIR$/chapter6/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        <state relative-caret-position="171">
+          <caret line="42" column="75" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter6/pom.xml">
+    <entry file="file://$PROJECT_DIR$/chapter5/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        <state relative-caret-position="157">
+          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
         </state>
       </provider>
     </entry>

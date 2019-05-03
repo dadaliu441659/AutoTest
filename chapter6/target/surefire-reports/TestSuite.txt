@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.149 sec <<< FAILURE!
+test2(com.extent.testExtentReport)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: test2 expected [2] but found [1]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at com.extent.testExtentReport.test2(testExtentReport.java:16)
+
+test4(com.extent.testExtentReport)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.RuntimeException: this is exception by myself
+	at com.extent.testExtentReport.test4(testExtentReport.java:27)
+

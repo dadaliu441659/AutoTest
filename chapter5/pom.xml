@@ -24,9 +24,9 @@
                 <version>2.7.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>
-                            ./src/main/resources/*.xml
-                        </suiteXmlFile>
+                        <suiteXmlFile>./src/main/resources/suite.xml</suiteXmlFile>
+                        <suiteXmlFile>./src/main/resources/groupsSuite.xml</suiteXmlFile>
+                        <suiteXmlFile>./src/main/resources/thread.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

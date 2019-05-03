@@ -31,28 +31,92 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">basictest</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><th colspan="7">groupsuite</th></tr>
+<tr><td style="text-align:left;padding-right:2em">runAll</td><td class="numi">6</td><td class="numi">6</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">onlyRunStu</td><td class="numi">4</td><td class="numi">4</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.0 seconds</td><td class="numi">stu </td><td class="numi"></td></tr>
+<tr><th colspan="7">suite</th></tr>
+<tr><td style="text-align:left;padding-right:2em">basictest</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 <tr class="stripe"><td style="text-align:left;padding-right:2em">login</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 <tr><td style="text-align:left;padding-right:2em">pay</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><th colspan="7">thread</th></tr>
+<tr><td style="text-align:left;padding-right:2em">demo1</td><td class="numi">6</td><td class="numi">6</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">demo2</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 <tr class="total"><td>Total</td>
-<td class="numi">3</td><td class="numi">3</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.1 seconds</td><td colspan="2">&nbsp;</td></tr>
+<td class="numi">20</td><td class="numi">20</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.1 seconds</td><td colspan="2">&nbsp;</td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">groupsuite</th></tr>
+<tr><th colspan="4">runAll &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">com.course.testng.groups.GroupOnClass1</td><td><a href="#m1"><b>stu1</b> (stu) </a></td><td class="numi">1</td><td>1556901585829</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m2"><b>stu2</b> (stu) </a></td><td class="numi">1</td><td>1556901585830</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="2">com.course.testng.groups.GroupsOnClass2</td><td><a href="#m3"><b>stu1</b> (stu) </a></td><td class="numi">1</td><td>1556901585830</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m4"><b>stu2</b> (stu) </a></td><td class="numi">1</td><td>1556901585830</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td rowspan="2">com.course.testng.groups.GroupsOnClass3</td><td><a href="#m5"><b>teacher1</b> (tea) </a></td><td class="numi">1</td><td>1556901585832</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m6"><b>teacher2</b> (tea) </a></td><td class="numi">1</td><td>1556901585833</td><td class="numi">0</td></tr>
+<tr><th colspan="4">onlyRunStu &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">com.course.testng.groups.GroupOnClass1</td><td><a href="#m7"><b>stu1</b> (stu) </a></td><td class="numi">1</td><td>1556901585839</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m8"><b>stu2</b> (stu) </a></td><td class="numi">1</td><td>1556901585840</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="2">com.course.testng.groups.GroupsOnClass2</td><td><a href="#m9"><b>stu1</b> (stu) </a></td><td class="numi">1</td><td>1556901585841</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m10"><b>stu2</b> (stu) </a></td><td class="numi">1</td><td>1556901585842</td><td class="numi">0</td></tr>
+<tr><th colspan="4">suite</th></tr>
 <tr><th colspan="4">basictest &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">com.course.testng.BasicAnnotationTest</td><td><a href="#m1"><b>annotationTest1</b>  </a></td><td class="numi">1</td><td>1556885822456</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">com.course.testng.BasicAnnotationTest</td><td><a href="#m11"><b>annotationTest1</b>  </a></td><td class="numi">1</td><td>1556901585736</td><td class="numi">2</td></tr>
 <tr><th colspan="4">login &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">com.course.testng.suite.LoginTest</td><td><a href="#m2"><b>loginTest</b>  </a></td><td class="numi">1</td><td>1556885822491</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">com.course.testng.suite.LoginTest</td><td><a href="#m12"><b>loginTest</b>  </a></td><td class="numi">1</td><td>1556901585818</td><td class="numi">0</td></tr>
 <tr><th colspan="4">pay &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">com.course.testng.suite.payTest</td><td><a href="#m3"><b>payTest</b>  </a></td><td class="numi">1</td><td>1556885822495</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td rowspan="1">com.course.testng.suite.payTest</td><td><a href="#m13"><b>payTest</b>  </a></td><td class="numi">1</td><td>1556901585823</td><td class="numi">0</td></tr>
+<tr><th colspan="4">thread</th></tr>
+<tr><th colspan="4">demo1 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.course.testng.multithreads.multithreadOnXml1</td><td><a href="#m14"><b>multiThreadTestOnXml1</b>  </a></td><td class="numi">1</td><td>1556901585854</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">com.course.testng.multithreads.multithreadsOnXml</td><td><a href="#m15"><b>multiThreadTestOnXml1</b>  </a></td><td class="numi">1</td><td>1556901585854</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">com.course.testng.multithreads.multithreadOnXml1</td><td><a href="#m16"><b>multiThreadTestOnXml2</b>  </a></td><td class="numi">1</td><td>1556901585854</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td rowspan="1">com.course.testng.multithreads.multithreadsOnXml</td><td><a href="#m17"><b>multiThreadTestOnXml2</b>  </a></td><td class="numi">1</td><td>1556901585854</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">com.course.testng.multithreads.multithreadOnXml1</td><td><a href="#m18"><b>multiThreadTestOnXml3</b>  </a></td><td class="numi">1</td><td>1556901585855</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">com.course.testng.multithreads.multithreadsOnXml</td><td><a href="#m19"><b>multiThreadTestOnXml3</b>  </a></td><td class="numi">1</td><td>1556901585856</td><td class="numi">0</td></tr>
+<tr><th colspan="4">demo2 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.course.testng.multithreads.multithreadonXml2</td><td><a href="#m20"><b>multiThreadTestOnXml1</b>  </a></td><td class="numi">1</td><td>1556901585861</td><td class="numi">0</td></tr>
 </table>
+<h1>runAll</h1>
+<h2 id="m1">com.course.testng.groups.GroupOnClass1:stu2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.course.testng.groups.GroupsOnClass2:stu2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.course.testng.groups.GroupsOnClass3:teacher2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.course.testng.groups.GroupsOnClass3:teacher1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.course.testng.groups.GroupsOnClass2:stu1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.course.testng.groups.GroupOnClass1:stu1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>onlyRunStu</h1>
+<h2 id="m7">com.course.testng.groups.GroupOnClass1:stu1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.course.testng.groups.GroupsOnClass2:stu2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.course.testng.groups.GroupsOnClass2:stu1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.course.testng.groups.GroupOnClass1:stu2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
 <h1>basictest</h1>
-<h2 id="m1">com.course.testng.BasicAnnotationTest:annotationTest1</h2>
+<h2 id="m11">com.course.testng.BasicAnnotationTest:annotationTest1</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 <h1>login</h1>
-<h2 id="m2">com.course.testng.suite.LoginTest:loginTest</h2>
+<h2 id="m12">com.course.testng.suite.LoginTest:loginTest</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 <h1>pay</h1>
-<h2 id="m3">com.course.testng.suite.payTest:payTest</h2>
+<h2 id="m13">com.course.testng.suite.payTest:payTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>demo1</h1>
+<h2 id="m14">com.course.testng.multithreads.multithreadsOnXml:multiThreadTestOnXml1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.course.testng.multithreads.multithreadOnXml1:multiThreadTestOnXml3</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.course.testng.multithreads.multithreadOnXml1:multiThreadTestOnXml1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">com.course.testng.multithreads.multithreadsOnXml:multiThreadTestOnXml3</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.course.testng.multithreads.multithreadsOnXml:multiThreadTestOnXml2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">com.course.testng.multithreads.multithreadOnXml1:multiThreadTestOnXml2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>demo2</h1>
+<h2 id="m20">com.course.testng.multithreads.multithreadonXml2:multiThreadTestOnXml1</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

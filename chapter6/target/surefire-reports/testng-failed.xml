@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [extentreporttest]">
+  <listeners>
+    <listener class-name="com.extent.extentTestNGIReporterListenerOld"/>
+  </listeners>
+  <test name="extentreport(failed)">
+    <classes>
+      <class name="com.extent.testExtentReport">
+        <methods>
+          <include name="test2"/>
+          <include name="test4"/>
+        </methods>
+      </class> <!-- com.extent.testExtentReport -->
+    </classes>
+  </test> <!-- extentreport(failed) -->
+</suite> <!-- Failed suite [extentreporttest] -->
