@@ -1,0 +1,15 @@
+com\course\testng\multithreads\multithreadsOnAnnotations.class
+com\course\testng\suite\payTest.class
+com\course\testng\suite\LoginTest.class
+com\course\testng\ignoreTest.class
+com\course\testng\IOExceptionTest.class
+com\course\testng\multithreads\multithreadonXml2.class
+com\course\testng\groups\GroupOnClass1.class
+com\course\testng\groups\groupOnMethodTest.class
+com\course\testng\multithreads\multithreadsOnXml.class
+com\course\testng\multithreads\multithreadOnXml1.class
+com\course\testng\groups\GroupsOnClass2.class
+com\course\testng\suite\suiteConfig.class
+com\course\testng\groups\GroupsOnClass3.class
+com\course\testng\DataProviderTest.class
+com\course\testng\BasicAnnotationTest.class

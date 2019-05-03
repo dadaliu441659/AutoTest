@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite" duration-ms="50" started-at="2019-05-03T12:17:02Z" finished-at="2019-05-03T12:17:02Z">
+    <groups>
+    </groups>
+    <test name="basictest" duration-ms="16" started-at="2019-05-03T12:17:02Z" finished-at="2019-05-03T12:17:02Z">
+      <class name="com.course.testng.BasicAnnotationTest">
+        <test-method status="PASS" signature="beforeMethodtest()[pri:0, instance:com.course.testng.BasicAnnotationTest@5e025e70]" name="beforeMethodtest" is-config="true" duration-ms="1" started-at="2019-05-03T20:17:02Z" finished-at="2019-05-03T20:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodtest -->
+        <test-method status="PASS" signature="annotationTest1()[pri:0, instance:com.course.testng.BasicAnnotationTest@5e025e70]" name="annotationTest1" duration-ms="0" started-at="2019-05-03T20:17:02Z" finished-at="2019-05-03T20:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- annotationTest1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.course.testng.BasicAnnotationTest@5e025e70]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-03T20:17:02Z" finished-at="2019-05-03T20:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.course.testng.BasicAnnotationTest -->
+    </test> <!-- basictest -->
+    <test name="login" duration-ms="2" started-at="2019-05-03T12:17:02Z" finished-at="2019-05-03T12:17:02Z">
+      <class name="com.course.testng.suite.suiteConfig">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.course.testng.suite.suiteConfig@34ce8af7]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-05-03T20:17:02Z" finished-at="2019-05-03T20:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.course.testng.suite.suiteConfig@34ce8af7]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-05-03T20:17:02Z" finished-at="2019-05-03T20:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- com.course.testng.suite.suiteConfig -->
+      <class name="com.course.testng.suite.LoginTest">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.course.testng.suite.LoginTest@b684286]" name="loginTest" duration-ms="0" started-at="2019-05-03T20:17:02Z" finished-at="2019-05-03T20:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.course.testng.suite.LoginTest -->
+    </test> <!-- login -->
+    <test name="pay" duration-ms="2" started-at="2019-05-03T12:17:02Z" finished-at="2019-05-03T12:17:02Z">
+      <class name="com.course.testng.suite.payTest">
+        <test-method status="PASS" signature="payTest()[pri:0, instance:com.course.testng.suite.payTest@30c7da1e]" name="payTest" duration-ms="1" started-at="2019-05-03T20:17:02Z" finished-at="2019-05-03T20:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payTest -->
+      </class> <!-- com.course.testng.suite.payTest -->
+      <class name="com.course.testng.suite.suiteConfig">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.course.testng.suite.suiteConfig@340f438e]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2019-05-03T20:17:02Z" finished-at="2019-05-03T20:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.course.testng.suite.suiteConfig@340f438e]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-05-03T20:17:02Z" finished-at="2019-05-03T20:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.course.testng.suite.suiteConfig@340f438e]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-05-03T20:17:02Z" finished-at="2019-05-03T20:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.course.testng.suite.suiteConfig@340f438e]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-05-03T20:17:02Z" finished-at="2019-05-03T20:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.course.testng.suite.suiteConfig -->
+    </test> <!-- pay -->
+  </suite> <!-- suite -->
+</testng-results>
